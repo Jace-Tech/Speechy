@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Speechy Example </title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <a href="" class="logo">Speechy</a>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <select id="voice" class="form-control form-select">
+                    <option value="" selected disabled>Choose Voice</option>
+                </select>
+                <textarea placeholder="Text..." class="form-control" id="text" cols="30" rows="10"></textarea>
+                <div class="options">
+                    <button id="play" class="btn green">Play</button>
+                    <button id="pause" class="btn purple">Pause</button>
+                    <button id="resume" class="btn blue">Resume</button>
+                    <button id="cancel" class="btn red">Cancel</button>
+                </div>
+            </div>
+        </main>
+        <script src="../dist/speechy.js"></script>
+        <script src="./speech.js"></script>
+    </body>
+
+</html>
