@@ -117,3 +117,5 @@ class Speechy {
     }
 
 }
+
+export default Speechy;

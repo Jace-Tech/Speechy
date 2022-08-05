@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 class Speechy {
     /**
      * @param {string} lang  Language code [eg. en-US ]
@@ -102,3 +103,4 @@ class Speechy {
         this.speechOptions.onend = callback;
     }
 }
+exports.default = Speechy;

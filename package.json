@@ -1,6 +1,25 @@
 {
-  "name": "Speechy",
+  "name": "@jace.dev/speechy",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "./dist/speechy.js",
+  "license": "MIT",
+  "keywords": [ 
+    "text to speech",
+    "speechy js",
+    "speech"
+  ],
+  "homepage": "https://github.com/Jace-Tech/",
+  "bugs": {
+    "url": "https://github.com/Jace-Tech/Speechy/issues",
+    "email": "alexjace151@gmail.com"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jace-Tech/Speechy"
+  },
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }

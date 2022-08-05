@@ -2,9 +2,30 @@
 
 A simple script to help out with Text-to-speech in Javascript
 
+## Installation 
+
+> NPM 
+```bash
+    npm i @jace.dev/speechy
+```
+
+> YARN 
+```bash
+    yarn add @jace.dev/speechy
+```
+
+> PNPM 
+
+```bash
+    pnpm install @jace.dev/speechy
+```
+
+
 ## How to use 
     
 ```javascript
+import Speechy from '@jace.dev/speechy';
+
 var speechy = new Speechy();
 speechy.say("Hello World");
 ```
@@ -12,6 +33,8 @@ speechy.say("Hello World");
 OR
     
 ```javascript
+import Speechy from '@jace.dev/speechy';
+
 var speechy = new Speechy();
 speechy.text("Hello World");
 speechy.speak();
@@ -20,6 +43,8 @@ speechy.speak();
 OR
     
 ```javascript
+import Speechy from '@jace.dev/speechy';
+
 var speechy = new Speechy("Hello world");
 speechy.speak();
 ```
